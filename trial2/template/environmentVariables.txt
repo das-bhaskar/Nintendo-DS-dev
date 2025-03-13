@@ -1,0 +1,10 @@
+export DEVKITARM=/opt/devkitpro/devkitARM
+export DEVKITPRO=/opt/devkitpro
+export PATH=$PATH:$DEVKITARM/bin
+
+if permission denied then:
+ cd ..
+ sudo chmod 777 hello_world
+ cd hello_world
+ make 
+
